@@ -1,0 +1,31 @@
+{
+    "item":[ 
+        { 
+            "source":"Description",
+            "destination":"item_name"
+        },
+        { 
+            "source":"Description",
+            "destination":"description"
+        },
+        { 
+            "source":"Product #",
+            "destination":"item_code"
+        },
+        {
+            "source":"Company",
+            "destination":"company",
+            "constant":"Promantia"
+        },
+        { 
+            "source":"UOM",
+            "destination":"stock_uom",
+            "constant":"Each"
+        },
+        {
+            "source":"Item Group",
+            "destination":"item_group",
+            "constant":"Products"
+        }
+    ]
+}
