@@ -15,17 +15,132 @@
         {
             "source":"Company",
             "destination":"company",
-            "constant":"Promantia"
+            "default":"Promantia"
         },
         { 
             "source":"UOM",
             "destination":"stock_uom",
-            "constant":"Each"
+            "default":"Each"
         },
         {
-            "source":"Item Group",
+            "source":"Type",
             "destination":"item_group",
-            "constant":"Products"
+            "default":"Products"
+        },
+        {
+            "source":"Is Purchase Item",
+            "destination":"is_purchase_item",
+            "default":"1"
+        },
+        {
+            "source":"Valuation Rate",
+            "destination":"valuation_rate",
+            "default":"1"
+        },
+        {
+            "source":"Maintain Stock",
+            "destination":"is_stock_item",
+            "default":"1"
+        },
+        {
+            "source":"Include Item In Manufacturing",
+            "destination":"include_item_in_manufacturing",
+            "default":"1"
+        },
+        {
+            "source":"Warehouse",
+            "destination":"default_warehouse",
+            "default":"Stores - P"
+        },
+        {
+            "source":"Price List",
+            "destination":"default_price_list",
+            "default":"Standard Buying"
+        },
+        {
+            "source":"Is Sales Item",
+            "destination":"is_sales_item",
+            "default":"1"
         }
+    ],
+    "item_price":{
+        "Standard Selling":[
+        { 
+            "source":"Product #",
+            "destination":"item_code"
+        },
+        { 
+            "source":"Price List",
+            "destination":"price_list",
+            "default":"Standard Selling"
+        },
+        { 
+            "source":"Description",
+            "destination":"item_name"
+        },
+        { 
+            "source":"Description",
+            "destination":"item_description"
+        },
+        {
+            "source":"Buying",
+            "destination":"buying",
+            "default":"0"
+        },
+        {
+            "source":"Selling",
+            "destination":"selling",
+            "default":"1"
+        },
+        {
+            "source":"Currency",
+            "destination":"currency",
+            "default":"USD"
+        },
+        {
+            "source":"Rep. Cost",
+            "destination":"price_list_rate",
+            "default":"0"
+        }
+    ],
+    "Standard Buying":[
+        { 
+            "source":"Product #",
+            "destination":"item_code"
+        },
+        { 
+            "source":"Price List",
+            "destination":"price_list",
+            "default":"Standard Buying"
+        },
+        { 
+            "source":"Description",
+            "destination":"item_name"
+        },
+        { 
+            "source":"Description",
+            "destination":"item_description"
+        },
+        {
+            "source":"Buying",
+            "destination":"buying",
+            "default":"1"
+        },
+        {
+            "source":"Selling",
+            "destination":"selling",
+            "default":"0"
+        },
+        {
+            "source":"Currency",
+            "destination":"currency",
+            "default":"USD"
+        },
+        {
+            "source":"List Price",
+            "destination":"price_list_rate",
+            "default":"0"
+        } 
     ]
+    }
 }
